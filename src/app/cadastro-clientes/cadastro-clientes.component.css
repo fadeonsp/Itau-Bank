@@ -4,20 +4,34 @@ h3 {
 .box-cadastro {
   margin: 30px;
   padding: 30px;
-  }
-  .cadastro {
+}
+.cadastro {
   padding: 10px;
   border: none;
   border-bottom: 2px solid #ddd;
   border-radius: 0;
   outline: none;
   height: 50px;
-  }
-  .btn-cadastro {
+}
+.btn-cadastro {
   width: 30%;
   display: block;
   margin: 0 auto;
   padding: 10px;
-  background-color: #EC7000;
+  background-color: #ec7000;
   font-weight: bold;
-  }
+}
+
+.checkbox-inline {
+  display: inline-flex;
+  flex-direction: row;
+  color: #ec7000;
+}
+.opcoes {
+  color: #ec7000;
+}
+p {
+  margin-top: -5px;
+  margin-left: 5px;
+  padding-left: 0;
+}
